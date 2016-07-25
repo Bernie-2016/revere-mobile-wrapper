@@ -3,6 +3,10 @@
 .page_mainnav,
 .page_subnav,
 .user-actions,
-#spotlight-search-input {
+#spotlight-search-input,
+a[href^="#inbox/subscribe"],
+a[href^="#inbox/addMetadata"],
+a[href^="#inbox/support"],
+.unsubscribe-list {
 	display: none !important;
 }
