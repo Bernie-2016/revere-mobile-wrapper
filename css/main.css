@@ -1,0 +1,8 @@
+#revere-apps,
+.broadcast-button-container,
+.page_mainnav,
+.page_subnav,
+.user-actions,
+#spotlight-search-input {
+	display: none !important;
+}
