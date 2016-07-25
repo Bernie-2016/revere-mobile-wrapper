@@ -9,6 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
 }, false);
 
 function checkIfInInbox() {
-	if (!/^#inbox/i.test(window.location.hash))
+	if (!/^#inbox/i.test(window.location.hash) && !/^#subscriber/i.test(window.location.hash))
 		window.location = 'https://mobile.reverehq.com/#inbox';
 }
